@@ -26,7 +26,7 @@ After that you can safely run `npm install` without authentication issues.
 You can use the predefined `npm run dev` command. The parcel-bundler will automatically build and watch the files for changes.
 
 ```bash
-npm run dev dev
+npm run dev
 ```
 The project is now available at `http://localhost:1234`   
 
@@ -34,5 +34,5 @@ The project is now available at `http://localhost:1234`
 Use the `npm run build` command and upload the archive to the themes section in your printfomer.
 
 ```bash
-npm run dev build
+npm run build
 ```
