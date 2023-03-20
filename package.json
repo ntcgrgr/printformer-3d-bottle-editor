@@ -11,7 +11,7 @@
     "postbuild": "cd dist && zip -r ../${npm_package_name}-${npm_package_version}.zip ."
   },
   "dependencies": {
-    "@rissc/printformer-editor-client": "^1.0.36",
+    "@rissc/printformer-editor-client": "^1.0.38",
     "@rissc/printformer-ts-common": "^1.0.13",
     "bulma": "^0.9.3",
     "color-convert": "^2.0.1",
