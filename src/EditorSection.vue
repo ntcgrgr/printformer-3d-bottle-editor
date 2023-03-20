@@ -31,7 +31,6 @@
   margin: 0;
   line-height: 1.5;
   position: absolute;
-  right: 223px;
   bottom: -4px;
   background-image: url(components/images/arrow.svg);
   background-repeat: no-repeat;
@@ -43,6 +42,22 @@
   transform: rotate(270deg) scale(0.95);
 }
 
+@media screen and (max-width: 768px){
+  .scroll-button {
+    left: calc(50% - 18px);
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1023px){
+  .scroll-button {
+    right: 24.8%;
+  }
+}
+/*@media screen and (min-width: 1024px) and (max-width: 1407px){*/
+@media screen and (min-width: 1024px) {
+  .scroll-button {
+    right: 16.6%;
+  }
+}
 .hide-button {
   display: none;
 }

@@ -4,7 +4,7 @@
     <div class="content is-small">
       <h1>Bilder</h1>
     </div>
-    <div class="columns is-justify-content-space-evenly is-flex-wrap-wrap px-2">
+    <div class="columns is-justify-content-space-evenly is-flex-wrap-wrap px-2 is-mobile">
       <div class="column is-6 has-text-centered">
         <button class="file-button box brand" :disabled="!!latestLogoIdentifier"
                 @click="uploadLogo">

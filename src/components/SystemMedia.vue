@@ -2,11 +2,11 @@
   <div>
     <hr>
     <div class="content is-small">
-      <h1>Ettikethintergrund</h1>
+      <h1>Hintergrund</h1>
     </div>
-    <div class="columns is-justify-content-space-evenly is-flex-wrap-wrap px-2">
+    <div class="columns is-justify-content-space-evenly is-flex-wrap-wrap px-2 is-mobile">
       <div v-for="media in systemMedia" @click="setBackground(media.name)"
-           class="column is-4 has-text-centered" style="cursor: pointer"
+           class="column is-4-desktop is-2-tablet has-text-centered" style="cursor: pointer"
            :class="{'is-loading': isLoading}">
         <img class="box media p-0"
              :src="media.src" :class="{'media-active': currentMedia === media.name}">

@@ -8,14 +8,26 @@ body, html, div, p, span {
   margin-bottom: 0.75rem !important;
 }
 
-@media only screen and (min-width: 300px) and (max-width: 968px) {
-  #pf-container, #page-container, #main-container {
-    max-height: 400px;
-    min-height: 0;
+@media screen and (max-width: 768px){
+  .mobile-flex {
+    display: flex;
+    flex-direction: column;
   }
-
-  #editor-iframe, #three-dee-iframe {
-    max-height: 400px;
-    min-height: 0;
+  .mobile-flex-self-center{
+    display: flex;
+    align-self: center;
+  }
+  .mobile-section-padding {
+    padding: 1.5rem 1.5rem 0;
+  }
+}
+@media screen and (max-width: 1023px){
+  .tablet-section-padding {
+    padding: 1.5rem 1.5rem 0;
+  }
+}
+@media screen and (max-height: 701px){
+  .tablet-section-padding {
+    padding: 1.5rem 1.5rem 0;
   }
 }

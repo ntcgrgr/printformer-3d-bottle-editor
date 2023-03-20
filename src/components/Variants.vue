@@ -3,9 +3,9 @@
     <div class="content is-small">
       <h1>Stanniol</h1>
     </div>
-    <div class="columns is-justify-content-space-evenly px-2">
+    <div class="columns is-justify-content-space-evenly px-2 is-mobile">
       <div v-for="variant in variants" @click="applyVariant(variant, variant.id)"
-           class="column is-2 has-text-centered" style="font-size: 0.8rem; cursor: pointer">
+           class="column is-2 is-one-third-mobile has-text-centered" style="font-size: 0.8rem; cursor: pointer">
         <div v-if="variant.thumbnail.type === 'color'" class="box variant"
              :class="{'variant-active': currentId === variant.id}"
              :style="{'background-color': variant.thumbnail.value}">
